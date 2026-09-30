@@ -74,7 +74,7 @@ I also learnt how to use kubectl to scale deployments up and down, monitor repli
 ![img](https://raw.github.com/saivignesh22/MarvelReport_Level1/main/task7%20k8%201.jpg)
 ![img2](https://raw.github.com/saivignesh22/MarvelReport_Level1/main/task7%20k8%202.jpg)  
 
-Task 8: Use Kubernetes Secrets and Environment Variables
+## Task 8: Use Kubernetes Secrets and Environment Variables
 In this task, I learned how Kubernetes manages application configuration and sensitive information using ConfigMaps and Secrets.    
 - I created a ConfigMap to store non-sensitive configuration such as the application name and environment. 
 - Created a Kubernetes Secret to securely store AWS Access Key ID and Secret Access Key instead of hardcoding them in the application or Deployment configuration. 
@@ -83,9 +83,10 @@ In this task, I learned how Kubernetes manages application configuration and sen
 - After deploying the application, verified that the ConfigMap and Secret were successfully consumed by the running Pod using `kubectl` commands.
 - The IAM user was successfully identified.  
 Through this task, I understood the difference between ConfigMaps and Secrets and learned how Kubernetes can provide configuration and sensitive credentials to applications without directly hardcoding them.
-![img]()
-![img]()
-Task 9 : Deploy an App to Push Files from Kubernetes to S3  
+
+![img](https://github.com/saivignesh22/MarvelReport_Level1/blob/main/task8a.png)
+
+## Task 9 : Deploy an App to Push Files from Kubernetes to S3  
 - I learned how to integrate Docker, Kubernetes, AWS IAM, Kubernetes Secrets, and Amazon S3 into a complete file-upload application. 
 - Developed a simple Flask-based web application that allows users to select and upload files through a web interface. It uses boto3 library to communitcate with S3. 
 - I created a Dockerfile and containerized the Flask application along with its required dependencies. I then built the Docker image and deployed it on a minikube Kubernetes cluster using a Deployment.
@@ -93,8 +94,11 @@ Task 9 : Deploy an App to Push Files from Kubernetes to S3
 - A Kubernetes Service was used to expose the Flask application, and port forwarding allowed me to access the application through the browser(sice i was using google cloud console).
 -File was selected and uploaded in the application which used boto3 to store the file in configured S3 bucket.
 -Verified the same
-![img](https://github.com/saiv
-![img]()
+
+![img](https://github.com/saivignesh22/MarvelReport_Level1/blob/main/task9a.png)
+
+![img](https://github.com/saivignesh22/MarvelReport_Level1/blob/main/task9b.png)  
+
 # CY - Tasks :  
 
 ## A. Fundamentals of Computer Networking (Task 1-5)  : 

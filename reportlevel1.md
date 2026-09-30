@@ -4,21 +4,21 @@
 In this task , I learnt a lot about version control system, cloning repositories , conflicts arising when two branches are to be merged, forking, making a pull request(PR) etc.I created and managed branches for feature development, which helped me understand how multiple devs work on a project parallely without affecting the main branch.  
 I further learnt more git features such as git revert , git cherry pick , git rebase which increased my knowledge of git and how it helps in efficient managing and tracking of changes in the code.  
 I referred to a Youtube channel Apna College to learn all about Git and GitHub and practiced by creating a demo repo and performing all of the above mentioned on my own.  
+
 ![img](https://raw.githubusercontent.com/saivignesh22/MarvelReport_Level1/refs/heads/main/gitbash%20branching.jpg)
 
 ## Task 2 : Exploring Docker Fundamentals  
 This task taught me a lot about docker containers , virtual machines , difference between containers and VM's . I learnt a few important docker commands all of which i implemented practically in the Google Cloud Shell Terminal since virtualization was not possible in my PC .  
-
-<br />
-
 Furthermore I learnt more about images which can be fetched from Docker Hub and how to containerize it, how to manage container lifecycles by starting, stopping, restarting, and removing containers with appropriate Docker commands.    
-By this task I understood how docker simplifies software development, testing, and deployment across different environments.   
+By this task I understood how docker simplifies software development, testing, and deployment across different environments.  
+
 ![img](https://raw.githubusercontent.com/saivignesh22/MarvelReport_Level1/refs/heads/main/docker%20image.jpg)    
 
 ## Task 3 : Dockerize a Simple Application
 Through this task, I learned how to dockerize and deploy a simple application and as mentioned earlier I did it using Google Cloud Console. 
 I created a Dockerfile, built the Docker image, and ran the application as a container within the Google Cloud environment. I also learned how to configure port mapping so that the application could be accessed through a browser. Additionally, I understood how Docker images are built in layers, where each Dockerfile instruction contributes to the final image.   
-This task gave me practical hands-on experience with Docker containerization.
+This task gave me practical hands-on experience with Docker containerization.  
+
 ![img](https://raw.github.com/saivignesh22/MarvelReport_Level1/main/task3%201%20(1).jpg)
 ![img2](https://raw.github.com/saivignesh22/MarvelReport_Level1/main/task3%201%20(2).jpg)
 
